@@ -1,0 +1,14 @@
+GET http://localhost:3000/
+
+
+###
+
+
+
+POST http://localhost:3000/word
+Content-Type: application/json
+
+{
+    "text":"cat",
+    "means":"animal name"
+}
